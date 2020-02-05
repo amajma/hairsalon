@@ -1,0 +1,154 @@
+#bevel-menu {
+  background-color: #cfcfc3;
+  color: #232323;
+}
+
+#bevel-menu .navbar {
+	padding: 0px;
+  }
+
+#bevel-menu img {
+  height: 40px;
+}
+
+#bevel-menu a {
+  color: black;
+  font-weight: bold;
+  padding-left: 65px;
+  cursor: pointer; 
+}
+
+#bevel-menu .toggleable-nav{
+	transition: max-height 1350ms ease-in-out;
+}
+
+.toggleable-show.toggleable-hide{
+	display: block;
+	animation: fade-out .5s 1;
+}
+
+#bevel-menu .toggleable-hide{
+	display:none;
+}
+
+
+#bevel-menu  .trigger-menu-wrapper .fas {
+  padding: 12px;
+}
+
+#bevel-menu  .trigger-menu-wrapper  {
+	background-color: black;
+	color: white;
+	width: 100%;
+	height: 40px;
+	scroll-margin-bottom: 15px;
+}
+
+.backgroundmain {
+	background-image: url("./../images/hairstyle-hair-wedding-bride.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 600px;
+	opacity: 0.6; 
+	background-color: rgb(50, 50, 50);
+  }
+
+  #bevel-main .carousel-inner {
+	  
+	  height: 300px;	  
+
+  }
+
+  #bevel-main .carousel {
+	
+    padding: 150px;
+
+}
+  #bevel-main  .bevel-main-info{
+	  color: white;
+	  font-weight: bold;
+	  font-size: 1.1em;
+	  padding-top: 140px;
+	  padding-left: 100px;
+  }
+
+  .backgroungservice {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./../images/bevel-slider-3-2000x1125-87.jpg');
+	/* opacity: .9;
+    background-color: rgb(34, 34, 34);
+	background-image: url("images/bevel-slider-3-2000x1125-87.jpg");  */
+	padding-top: 120px; padding-bottom: 80px;
+	height: 800px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	/* filter: grayscale(60%); */
+	/* opacity: 0.9;  */
+
+  }
+
+  #bevel-service .card-service {
+	padding-top: 10px;
+	width: 18rem;
+	background: transparent;
+  }
+
+  #bevel-service .card {
+    text-align: center;
+	background: transparent;
+  }
+
+  #bevel-service  .feature-title {
+	  color: white;
+	  align-content: space-around;
+  }
+
+  #bevel-service  .feature-text{
+	padding-top: 30px;
+	color: white;
+	align-content: space-around;
+  }
+
+  .service-title {
+	  color: white;
+	  font-weight: bold;
+	  font-size: 2.8em;
+  }
+
+
+  #bevel-samples image{
+	  width: 100%;
+  }
+
+  .backgroungsample{
+	  background-color: 	#534F4E;
+  }
+
+  .backgroundprice {
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url('./../images/pexels-photo-2000x1333.jpg');
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+  }
+
+  #bevel-price  table{
+	margin: 50px;;
+	widows: 100px;
+	
+  }
+
+  #bevel-price  td{
+	color: white;
+	font-size: 1.6em;;
+	
+  }
+
+  #bevel-price  th{
+	color: white;
+	font-size: 2.5em;;
+	
+  }
+
+  .background-fotter{
+	background-color: #cfcfc3;
+	color: #232323;	  
+  }
