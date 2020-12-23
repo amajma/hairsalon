@@ -46,10 +46,9 @@
     ga('mag_tracker.send', 'pageview');
   </cript>
    -->
-   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-185612414-1"></script>
+   <script async src="https://www.googletagmanager.com/gtag/js"></script>
    <script>
      window.dataLayer = window.dataLayer || [];
-     //dataLayer.push({'event': 'login','userId' : '7NT0000000000000000'});
      function gtag(){dataLayer.push(arguments);}
      gtag('js', new Date());
      var jsonData = {'user_id': '7NT0000000000000000',
@@ -57,9 +56,6 @@
                      'page_path': '/my-virtualpage-path'};
      gtag('config', 'UA-185612414-1', jsonData);
      gtag('config', 'G-JCYJRCRPLM', jsonData);
-     
-     //gtag('set', {'user_id': '7NT0000000000000000'}); // Set the user ID using signed-in user_id.
-     //gtag('event', 'login',  'userID' , '7NT0000000000000000'});
    </script>
 </head>
 
